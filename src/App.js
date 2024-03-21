@@ -1,13 +1,12 @@
 import React from 'react'
-import Design from './components/Design'
-import Layout from './components/Layout'
-
+import LAYOUT from './component/LAYOUT'
+import Nav from './component/Nav'
 const App = () => {
   return (
     <div>
-    <Layout>
-    <Design/>
-    </Layout>
+     <LAYOUT>
+     <Nav/>
+     </LAYOUT>
     </div>
   )
 }
