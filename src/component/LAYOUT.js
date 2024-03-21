@@ -1,11 +1,11 @@
 import React from 'react'
 import Foot from './Foot'
-import Nav from './Nav'
+import NavBars from './NavBars'
 
 const LAYOUT = ({children}) => {
   return (
     <div>
-      <Nav/>
+      <NavBars/>
       <div className='container'>{children}</div>
       <Foot/>
     </div>
